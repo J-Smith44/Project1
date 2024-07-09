@@ -9,11 +9,10 @@
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="./assets/css/joystick_1f579-fe0f.png"> Game Center
-        <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> GameCenter
-    <path fill-rule="evenodd" clip-rule="evenodd" "black" class="bd-svg-black" />
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/>
+    <div class="navbar-brand title"> 🕹️ Game Center
+      <a class="navbar-item"> 
+        <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+    <path fill-rule="evenodd" clip-rule="evenodd"  class="bd-svg-black" />
   </svg>
   
       </a>
@@ -38,11 +37,18 @@
       </div>
     </div>
   </nav>
-  <h1 class="title">Game Center</h1>
-  <h2 class="button is-info is-dark">TicTacToe</h2>
-  <h2 class="button is-link is-light">Connect Four</h2>
-  
-  
+  <div class="fixed-grid">
+    <div class="grid">
+  <h2 class="button is-info is-dark cell" >  <a href="tictactoe.html">TicTacToe</a></h2>
+  <h2 class="button is-link is-light cell"> <a href="connectfour.html">Connect Four</a></h2>
+</div>
+</div>
+<div class="fixed-grid">
+  <div class="grid">
+<h3 class="box cell">tictactoe example</h3>
+<h3 class="box cell">connect four example</h3>  
+</div>
+</div>
 </body>
 <script src="./assets/js/script.js"></script>
 </html>
